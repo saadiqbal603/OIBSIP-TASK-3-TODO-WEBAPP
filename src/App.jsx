@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1 className="app-title">To-Do List</h1>
+      <h1 className="app-title">To-Do App</h1>
       <TaskInput onAddTask={handleAddTask} />
       <TaskList
         title="Pending Tasks"
